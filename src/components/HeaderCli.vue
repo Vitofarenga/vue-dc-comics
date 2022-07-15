@@ -1,5 +1,5 @@
 <template>
-    <nav class="d-flex">
+    <nav class="d-flex ">
         <img src="../assets/dc-logo.png" alt="">
         <ul>
             <li>CHARACTERS</li>
@@ -24,16 +24,20 @@ export default{
 
 <style scoped>
    img{
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     padding: 1rem;
+    margin-left: 15rem;
+    margin-right: 17rem;
    };
    nav ul{
     list-style: none;
    }
    li{
-    padding-left:1rem;
+    padding-top: 3rem;
+    padding-left:1.5rem;
     display: inline-block;
     font-weight: bold;
+    font-size: .7rem;
    }
 </style>
