@@ -1,5 +1,5 @@
 <template>
-    <nav class="d-flex ">
+    <nav class="d-flex">
         <img src="../assets/dc-logo.png" alt="">
         <ul>
             <li>CHARACTERS</li>
@@ -35,9 +35,14 @@ export default{
    }
    li{
     padding-top: 3rem;
-    padding-left:1.5rem;
+    margin-left:1.5rem;
     display: inline-block;
     font-weight: bold;
     font-size: .7rem;
+    padding-bottom:3rem;
+   }
+   li:hover{
+    border-bottom: 0.3rem solid blue;
+    color:blue;
    }
 </style>
