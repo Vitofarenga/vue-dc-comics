@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    <Header />
-    <Main />
-    <Footer />
+    <HeaderCli />
+    <MainCli />
+    <FooterCli />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
+import HeaderCli from './components/HeaderCli.vue'
+import MainCli from './components/MainCli.vue'
+import FooterCli from './components/FooterCli.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Main,
-    Footer
+    HeaderCli,
+    MainCli,
+    FooterCli
   }
 }
 </script>
