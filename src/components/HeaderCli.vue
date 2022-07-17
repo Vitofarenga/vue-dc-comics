@@ -42,7 +42,7 @@ export default{
     padding-bottom:3rem;
    }
    li:hover{
-    border-bottom: 0.3rem solid blue;
-    color:blue;
+    border-bottom: 0.3rem solid rgba(2,130,249,255);
+    color:rgba(2,130,249,255);
    }
 </style>
