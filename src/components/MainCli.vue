@@ -1,7 +1,10 @@
 <template>
     <div>
         <section id="contenthere">
-           
+           <h3 id="current">CURRENT SERIES</h3>
+        </section>
+        <section id="cardsmenu">
+
         </section>
         <section id="bluemenu">
             <ul>
@@ -27,6 +30,21 @@ export default{
     height: 25rem;
     background-image:url(../assets/jumbotron.jpg);
     background-size:cover;
+    position: relative;
+}
+#current{
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgba(2,130,249,255);
+    position: absolute;
+    margin-top: 23.5rem;
+}
+#cardsmenu{
+    width: 100%;
+    height: 20rem;
+    background-color: black;
 }
 h3{
     color: white;
