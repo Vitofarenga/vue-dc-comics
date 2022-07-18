@@ -26,6 +26,7 @@ export default{
     width: 100%;
     height: 25rem;
     background-image:url(../assets/jumbotron.jpg);
+    background-size:cover;
 }
 h3{
     color: white;

@@ -69,6 +69,7 @@ export default{
     object-fit: contain;
     display: flex;
     justify-content: space-around;
+    background-size: cover;
 }
 #logogrande{
     height: 25rem;
