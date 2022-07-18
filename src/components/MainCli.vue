@@ -1,7 +1,7 @@
 <template>
     <div>
-        <section id="contenthere" class="d-flex justify-content-start">
-            <h3>-->Content goes here</h3>
+        <section id="contenthere">
+           
         </section>
         <section id="bluemenu">
             <ul>
@@ -24,8 +24,8 @@ export default{
 <style scoped>
 #contenthere{
     width: 100%;
-    height: 7rem;
-    background-color: rgba(28,28,28,255) ;
+    height: 25rem;
+    background-image:url(../assets/jumbotron.jpg);
 }
 h3{
     color: white;
