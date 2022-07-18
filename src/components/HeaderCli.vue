@@ -40,9 +40,10 @@ export default{
     font-weight: bold;
     font-size: .7rem;
     padding-bottom:3rem;
+    border-bottom: .3rem solid white
    }
    li:hover{
-    border-bottom: 0.3rem solid rgba(2,130,249,255);
+    border-bottom: .3rem solid rgba(2,130,249,255);
     color:rgba(2,130,249,255);
    }
 </style>

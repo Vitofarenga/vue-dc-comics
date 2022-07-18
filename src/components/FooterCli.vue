@@ -39,8 +39,19 @@
                 <li>lorem</li>
             </ul>
         </section>
-        <img src="../assets/dc-logo-bg.png" alt="">
+        <img id="logogrande" src="../assets/dc-logo-bg.png" alt="">
         </section>
+        <div id="realfooter">
+            <div><button>SIGN-UP NOW</button></div>
+            <ul id="footerlist">
+                <li><h3 id="seguiciora">FOLLOW US</h3></li>
+                <li><img src="../assets/footer-facebook.png" alt=""></li>
+                <li><img src="../assets/footer-periscope.png" alt=""></li>
+                <li><img src="../assets/footer-pinterest.png" alt=""></li>
+                <li><img src="../assets/footer-twitter.png" alt=""></li>
+                <li><img src="../assets/footer-youtube.png" alt=""></li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -59,7 +70,7 @@ export default{
     display: flex;
     justify-content: space-around;
 }
-img{
+#logogrande{
     height: 25rem;
     width: 25rem;
 }
@@ -88,6 +99,33 @@ h3{
 #titolopiccolo{
     text-align: start;
 }
-
+#realfooter{
+    background-color:rgba(48,48,48,255);
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    color:white;
+    font-weight: bold;
+    padding: 1rem;
+    border: .2rem solid rgba(2,130,249,255);
+    background-color: rgba(48,48,48,255);
+}
+#seguiciora{
+    color: rgba(2,130,249,255);
+}
+#footerlist{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
 
 </style>
